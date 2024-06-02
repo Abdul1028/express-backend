@@ -344,5 +344,5 @@ app.get("/profile/:userId", async (req, res) => {
 
 
 app.get("/",async() => {
-  res.json("heyy threads is working!!!!")
+  res.json("Server is up and working!!!!")
 })
