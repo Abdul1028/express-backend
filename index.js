@@ -77,7 +77,11 @@ const sendVerificationEmail = async (email, verificationToken) => {
     from: "threads.com",
     to: email,
     subject: "Email Verification",
+<<<<<<< HEAD
     text: `please click on the following link to verify your email https://threads-backend-api.vercel.app/verify/${verificationToken} Thanks from Threads and Team for your creation of account!`,
+=======
+    text: `please click on the following link to verify your email http://threads-backend-api.vercel.app/verify/${verificationToken} Thanks from Abdul shaikh for creation of your Threads account!`,
+>>>>>>> f18f1719fd9135411744f486b9015f9a9946cec6
   };
 
   try {
@@ -264,6 +268,7 @@ app.put("/posts/:postId/:userId/unlike", async (req, res) => {
   }
 });
 
+<<<<<<< HEAD
 
 //endpoint to comment 
 
@@ -300,6 +305,8 @@ app.post("/comment/:postID",async(req,res) => {
 
 
 
+=======
+>>>>>>> f18f1719fd9135411744f486b9015f9a9946cec6
 //endpoint to get all the posts
 app.get("/get-posts", async (req, res) => {
   try {
@@ -341,8 +348,11 @@ app.get("/profile/:userId", async (req, res) => {
     res.status(500).json({ message: "Error while getting the profile" });
   }
 });
+<<<<<<< HEAD
 
 
 app.get("/",async() => {
   res.json("Server is up and working!!!!")
 })
+=======
+>>>>>>> f18f1719fd9135411744f486b9015f9a9946cec6

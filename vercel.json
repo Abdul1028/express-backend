@@ -1,1 +1,15 @@
+<<<<<<< HEAD
 { "version": 2, "rewrites": [{ "source": "/(.*)", "destination": "/api" }] }
+=======
+{
+    "version": 2,
+    "name": "threads-express-backend",
+    "builds": [
+      { "src": "index.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "/index.js" }
+    ]
+  }
+  
+>>>>>>> f18f1719fd9135411744f486b9015f9a9946cec6
