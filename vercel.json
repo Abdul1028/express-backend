@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-{ "version": 2, "rewrites": [{ "source": "/(.*)", "destination": "/api" }] }
-=======
+
 {
     "version": 2,
     "name": "threads-express-backend",
@@ -12,4 +10,3 @@
     ]
   }
   
->>>>>>> f18f1719fd9135411744f486b9015f9a9946cec6
